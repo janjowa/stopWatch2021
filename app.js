@@ -26,14 +26,14 @@ function timer() {
        
         }
 
-    if (sec>=20){
+    if (sec>=60){
         min++
         minHeading.innerHTML=min+" Min";
         sec=00;
         secHeading.innerHTML=sec;
 
     }
-    if (min>=5){
+    if (min>=60){
         hour++
         hourHeading.innerHTML=hour+" hr";
         min=00;
