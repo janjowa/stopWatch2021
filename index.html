@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch by Faisal Mehmood Tariq
+        Janjowa</title>
+    <meta name="description" content="Contact sir Faisal Mehmood at fysi.janjowa@gmail.com for Java Lectures, CSS and HTML online trainings">
+    <link rel="stylesheet" href="css/circle.css">
+
+</head>
+
+<body>
+    <h3>Stop Watch</h3>
+        <h5>by:</h5>
+    <h1>Faisal Mehmood Tariq</h1>
+<div >
+    <div class="clearfix">
+        <div id="hourDiv">
+            <span id="hourHeading"
+                class="hourClass">0 hr</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+        <div id="minDiv">
+            <span id="minHeading"
+                class="hourMin">0 min</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix">
+        <div id="secDiv">
+            <span id="secHeading"
+                class="hourSec">0 sec</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix">
+        <div id="miliSecDiv">
+            <span id="miliSecHeading"
+                class="hourMiliSec">0 ms</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    &nbsp;<p>&nbsp;</p>
+    <div>
+        <button id="startButton"
+            onclick="startWatch()">Start</button>
+        <button id="pauseButton"
+            onclick="pauseWatch()">Pause</button>
+        <button id="lapButton"
+            onclick="laps()">Lap</button>
+        <button id="stopButton"
+            onclick="stopNow()">Stop</button>
+    </div>
+    <div>
+		
+		<p><span style="background-color: #FFFF00"><p id="lapsText"></p>
+</span></p>
+    </div>
+    <div>
+        <p id="stopText"><font color="#FFFFFF">
+		<span style="background-color: #000000"></span></font></p>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
